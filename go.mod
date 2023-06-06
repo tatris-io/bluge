@@ -2,6 +2,8 @@ module github.com/blugelabs/bluge
 
 go 1.13
 
+replace github.com/blugelabs/ice/v2 => github.com/tatris-io/ice/v2 v2.0.1
+
 require (
 	github.com/RoaringBitmap/roaring v0.9.4
 	github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f
